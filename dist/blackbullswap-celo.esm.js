@@ -34,8 +34,8 @@ var Rounding;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(Rounding || (Rounding = {}));
 
-var FACTORY_ADDRESS = '0xf8572a1f34C0631afE7ADd1a89Bf28cd11F93eef';
-var INIT_CODE_HASH = '0x9167964e17f65772ae724a414076410fd5ee7f2d6f1d89c8f9c2ead2fe61d2a2';
+var FACTORY_ADDRESS = '0x8B41a96dda19Ce082933a931eC414fFCd534B9C0';
+var INIT_CODE_HASH = '0x1cf4cc12fe7c49522adfa7be03d08575fc4354f929e125bc6b6aea3b907b1414';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
@@ -432,7 +432,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WAVAX = (_WAVAX = {}, _WAVAX[ChainId.FUJI] = /*#__PURE__*/new Token(ChainId.FUJI, '0x765de816845861e75a25fca122bb6898b8b1282a', 18, 'cUSD', 'Celo Dollar'), _WAVAX[ChainId.AVALANCHE] = /*#__PURE__*/new Token(ChainId.AVALANCHE, '0x765de816845861e75a25fca122bb6898b8b1282a', 18, 'cUSD', 'Celo Dollar'), _WAVAX);
+var WAVAX = (_WAVAX = {}, _WAVAX[ChainId.FUJI] = /*#__PURE__*/new Token(ChainId.FUJI, '0x471EcE3750Da237f93B8E339c536989b8978a438', 18, 'CELO', 'Celo Native Asset'), _WAVAX[ChainId.AVALANCHE] = /*#__PURE__*/new Token(ChainId.AVALANCHE, '0x471EcE3750Da237f93B8E339c536989b8978a438', 18, 'CELO', 'Celo Native Asset'), _WAVAX);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
